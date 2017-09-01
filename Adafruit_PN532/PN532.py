@@ -24,9 +24,10 @@ from functools import reduce
 import logging
 import time
 
-import Adafruit_GPIO as GPIO
-import Adafruit_GPIO.SPI as SPI
-
+#import Adafruit_GPIO as GPIO
+#import Adafruit_GPIO.SPI as SPI
+import OPi.GPIO as GPIO
+import spi as SPI
 
 PN532_PREAMBLE                      = 0x00
 PN532_STARTCODE1                    = 0x00

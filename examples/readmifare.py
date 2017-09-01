@@ -29,10 +29,17 @@ import Adafruit_PN532 as PN532
 # It is recommended to use a software SPI connection with 4 digital GPIO pins.
 
 # Configuration for a Raspberry Pi:
+#CS   = 18
+#MOSI = 23
+#MISO = 24
+#SCLK = 25
+
+# Configuration for a Orange Pi:
 CS   = 18
 MOSI = 23
 MISO = 24
 SCLK = 25
+
 
 # Configuration for a BeagleBone Black:
 # CS   = 'P8_7'
